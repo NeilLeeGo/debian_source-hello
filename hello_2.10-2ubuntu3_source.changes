@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 13 Aug 2022 00:38:00 +0800
+Source: hello
+Architecture: source
+Version: 2.10-2ubuntu3
+Distribution: focal
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Neil Lee <xunyi.lee@gmail.com>
+Changes:
+ hello (2.10-2ubuntu3) focal; urgency=medium
+ .
+   * Canocial home test.
+Checksums-Sha1:
+ 2ec93b27dca6449c057d23facfeed0ead01eef6f 1636 hello_2.10-2ubuntu3.dsc
+ 4be3796ce9bc737e859c2b74027d7ec5da661c5f 7244 hello_2.10-2ubuntu3.debian.tar.xz
+ 52efdd8680dacb0df9038450bca15a05f66634dc 6166 hello_2.10-2ubuntu3_source.buildinfo
+Checksums-Sha256:
+ 3f301d782acf7540288790ac7f5493ba3f4ef140e7dcf510015e28231887a7c9 1636 hello_2.10-2ubuntu3.dsc
+ 6bf1fac92d5b89ef5a57d8e2f8f766f5b1774d36a6f4e32a7eb711765601bf57 7244 hello_2.10-2ubuntu3.debian.tar.xz
+ 36867e2a4560e74a1df11b93e5a61ba0aa6330133d863359025fa4bd5a7245b9 6166 hello_2.10-2ubuntu3_source.buildinfo
+Files:
+ c62bcc025ba355794b5219e111d90d8e 1636 devel optional hello_2.10-2ubuntu3.dsc
+ 0a6b6e308560e02d87c83f8ada6c8fc8 7244 devel optional hello_2.10-2ubuntu3.debian.tar.xz
+ 7c7ada09f62f0233787f5d1bcbbd732f 6166 devel optional hello_2.10-2ubuntu3_source.buildinfo
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEyMycSyaCQl9Od2KeyGODEZg2vyUFAmL2g20ACgkQyGODEZg2
+vyWXrwv/WIOL/CPCmt4bicqGzYFYonbR2JmXDOPf66QpOOa7buV0iAmqM5FhxKg8
+0VMR3c6Gfaw8zD4Rb6iA5YHMTy9k5i4A21x2QWF4qNDtgFTa9CSlrbOQPM5c8Isj
+D7yzApLKdiw6nhMgM+FLK9YiqZL3hJWuTKj4PNVDfE4GRITwmZ7BUaEjuhOIO4BC
+1L8e1uShGweH7Lzepj3PSh5R98C+2545rB36DMc0U+AC3amOFud6/aZF34KGwBnZ
+gotOtLoZfsKyNSZpT2E5s4mcFFI6zUaZkSzVE1o9VIF8U3KVB/c1pxk2Al9BO1Et
+gOkRxaY4KvZ2B5ovzGDvZo3rwt+2ba4s0R5pRTH0DvEedhwWCohuhUnxisu+OzqQ
+1wcneN7BIVPtWZXwKs2xk03TFFuAgWW1HOScYe9rZddlDTNPs10ip+N+NN0aCvez
+wc8ZuE75Rzv6jaIFii/Uo0KloQWYFBd+mVG5RtT2fYgiO0AG81n2Z3QVgUGcrway
+l/jwC1tw
+=BSIO
+-----END PGP SIGNATURE-----

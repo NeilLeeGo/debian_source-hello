@@ -1,0 +1,39 @@
+ dpkg-buildpackage -us -uc -ui -S
+dpkg-buildpackage: 資訊: 源碼套件 hello
+dpkg-buildpackage: 資訊: 源碼版本 2.10-2ubuntu3
+dpkg-buildpackage: 資訊: source distribution focal
+dpkg-buildpackage: 資訊: 源碼變更者： Neil Lee <xunyi.lee@gmail.com>
+ dpkg-source --before-build .
+ debian/rules clean
+dh clean
+   debian/rules override_dh_auto_clean
+make[1]: 進入目錄「/home/neil/Workspace/Canocial/hello-deb-source/hello-2.10」
+[ ! -f Makefile ] || /usr/bin/make distclean
+make[1]: 離開目錄「/home/neil/Workspace/Canocial/hello-deb-source/hello-2.10」
+   dh_clean
+ dpkg-source -b .
+dpkg-source: 資訊: using source format '3.0 (quilt)'
+dpkg-source: 資訊: building hello using existing ./hello_2.10.orig.tar.gz
+dpkg-source: 資訊: using patch list from debian/patches/series
+dpkg-source: 資訊: building hello in hello_2.10-2ubuntu3.debian.tar.xz
+dpkg-source: 資訊: building hello in hello_2.10-2ubuntu3.dsc
+ dpkg-genbuildinfo --build=source
+ dpkg-genchanges --build=source >../hello_2.10-2ubuntu3_source.changes
+dpkg-genchanges: 資訊: not including original source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: 資訊: 上傳二進位和差異 (diff) (＊不＊包含原始源碼)
+Now running lintian hello_2.10-2ubuntu3_source.changes ...
+W: hello source: package-uses-deprecated-debhelper-compat-version 9
+Finished running lintian.
+Now signing changes and any dsc files...
+long key IDs are discouraged; please use key fingerprints instead
+ signfile dsc hello_2.10-2ubuntu3.dsc C86383119836BF25
+
+ fixup_buildinfo hello_2.10-2ubuntu3.dsc hello_2.10-2ubuntu3_source.buildinfo
+ signfile buildinfo hello_2.10-2ubuntu3_source.buildinfo C86383119836BF25
+
+ fixup_changes dsc hello_2.10-2ubuntu3.dsc hello_2.10-2ubuntu3_source.changes
+ fixup_changes buildinfo hello_2.10-2ubuntu3_source.buildinfo hello_2.10-2ubuntu3_source.changes
+ signfile changes hello_2.10-2ubuntu3_source.changes C86383119836BF25
+
+Successfully signed dsc, buildinfo, changes files
