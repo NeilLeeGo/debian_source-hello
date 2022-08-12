@@ -1,3 +1,9 @@
+hello (2.10-2ubuntu3) UNRELEASED; urgency=medium
+
+  * Canocial home test.
+
+ -- Neil Lee <xunyi.lee@gmail.com>  Sat, 13 Aug 2022 00:13:43 +0800
+
 hello (2.10-2ubuntu2) eoan; urgency=medium
 
   * Handle exit code 77 for skipped autopkgtests.
